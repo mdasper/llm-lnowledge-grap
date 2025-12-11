@@ -3,7 +3,7 @@ import unittest
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv()
-
+#load detials from repo
 class TestEnvironment(unittest.TestCase):
 
     skip_env_variable_tests = True
