@@ -4,7 +4,7 @@ from langchain_google_vertexai import ChatVertexAI
 from langchain_neo4j import GraphCypherQAChain, Neo4jGraph
 from langchain.prompts import PromptTemplate
 
-# Load environment variables
+# Load environment variables and add additional details
 load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")

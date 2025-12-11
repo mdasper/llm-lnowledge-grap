@@ -7,7 +7,7 @@ from langchain_experimental.graph_transformers import LLMGraphTransformer
 from langchain_community.graphs.graph_document import Node, Relationship
 from dotenv import load_dotenv
 
-# Load environment variables
+# Load environment variables including additional details
 load_dotenv()
 
 DOCS_PATH = "llm-knowledge-graph/data/course/pdfs"
